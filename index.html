@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+
 </head>
 <style>
     .container{
@@ -23,7 +26,7 @@
                 <div style="display:flex; justify-content: center;">
                 <img src="download.jpg" alt="" style="width:44px; border-radius:13px; ">
             </div>
-            <h4  style="text-align: center; "> APPROVED <SPAN><img src="/images (1).png" alt="" style="height:14px; width:14px;"></SPAN> </h4>
+            <h4  style="text-align: center; "> Management <SPAN><img src="/images (1).png" alt="" style="height:14px; width:14px;"></SPAN> </h4>
                 
                 <div style="width:98%; height:1px; margin:0 auto;margin-top:-3px; background-color:rgb(13, 13, 48);"></div>
                 <p style="color:rgb(10, 10, 10); font-size:9px; text-align: center; ">Nicolas Galtizine Booking form for private meet/reservation voucher information</p>
@@ -47,108 +50,74 @@
 
                     </p>  
                 </div>
-               <div>
+            <div style="background:rgb(224, 224, 224); padding:6px;">
+              
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Requirement</th>
+              <th scope="col">Status</th>
+              <th scope="col"> Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Fax ticket:</td>
+              <td style="color:green"> Paid</td>
+              <td>$3,000</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>NNPC
+              Induction fee:</td>
+              <td style="color:RED">Not Paid</td>
+              <td>$3,123.45</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Flight</td>
+              <td style="color:red">Not Paid</td>
+              <td>$2,165.84</td>
+            </tr>
 
-                <div style="background-color:rgb(224, 224, 224); width:90%;font:bold; color:rgb(235, 79, 59);; margin-top:1rem; display:flex; justify-content: space-between;  padding:0px 15px;;">
-                    <div>
-                        <h5 style="padding:4px;">Requirement</h5>
-                    </div>
-                    <div>
-                        <h5 style="padding:4px;">Amount</h5>
-                    </div>
-                    <div>
-                        <h5 style="padding:4px;">Status</h5>
-                    </div>
-                </div>
+            <tr>
+              <th scope="row">4</th>
+              <td>Facility service</td>
+              <td style="color:red">Not Paid</td>
+              <td>$1210.71</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td colspan="2"><h5>Total</h5></td>
+              <td>$9,500</td>
+            </tr>
 
-                <div style=" width:95%;font:bold;  margin-top: -3px; display:flex; justify-content: space-between;  padding:1px;">
-                    <div>
-                        <h5 style="padding:4px;">Fax ticket:</h5>
-                    </div>
-                    <div>
-                        <h5 style="padding:4px; margin-left:13px;">$3,000 </h5>
-                    </div>
-                    <div>
-                        <h5 style="padding:4px; color: green;">Paid</h5>
-                    </div>
-                </div>
+            <tr>
+              <th scope="row"></th>
+              <td colspan="2"><h5>Balance</h3></td>
+              <td>$6,500</td>
+            </tr>
+          </tbody>
+        </table>
+        <div>
+          <h5>From Management:</h5>
+          <p style="color:red"> All payments must be made before date of departure.</p>
+      </div>
+              
+      </div>     
               </div>
-
-              <div style=" width:95%;font:bold;  margin-top: -40px; display:flex; justify-content: space-between;  padding:1px;">
-                <div>
-                    <h6 style="padding:2px; font-size: 13px;"> NNPC <br> Induction fee:</h6>
-                </div>
-                <div>
-                    <h5 style="padding:4px; margin-left:-13px; margin-top:30px;">$3,123.45 </h5>
-                </div>
-                <div>
-                    <h5 style="padding:4px; margin-left:-13px; margin-top:30px; color: red;">Not Paid</h5>
-                </div>
-            </div>
-
-            <div style=" width:95%;font:bold;  margin-top: -40px; display:flex; justify-content: space-between;  padding:1px;">
-                <div>
-                    <h5 style="padding:4px;">Flight:</h5>
-                </div>
-                <div>
-                    <h5 style="padding:4px; margin-left:25px;">$2,165.84 </h5>
-                </div>
-                <div>
-                    <h5 style="padding:4px; color: red;">Not Paid</h5>
-                </div>
-            </div>
-
-            <div style=" width:95%;font:bold;  margin-top: -40px; display:flex; justify-content: space-between;  padding:1px;">
-                <div>
-                    <h6 style="padding:2px; font-size: 13px;"> Facility <br> Services:</h6>
-                </div>
-                <div>
-                    <h5 style="padding:4px; margin-left:13px; margin-top:30px;">$1210.71 </h5>
-                </div>
-                <div>
-                    <h5 style="padding:4px; margin-left:-13px; margin-top:30px; color: red;">Not Paid</h5>
-                </div>
-            </div>
-
-            <div style="background-color:rgb(224, 224, 224); width:57%; font:bold; color:red; margin-top:-1rem; display:flex; justify-content: space-between;  padding:0px 15px;">
-                <div>
-                    <h3 style="padding:px;">Total</h3>
-                </div>
-                <div>
-                    <h3> $9,500</h3>
-                </div> 
-            </div>
-
-            <div style="background-color:rgb(224, 224, 224); width:57%; font:bold; color:red; margin-top:-1rem; display:flex; justify-content: space-between;  padding:0px 15px;">
-                <div>
-                    <h3 style="padding:px;">Balance</h3>
-                </div>
-                <div>
-                    <h3 > $6,500</h3>
-                </div> 
-            </div>
-            </div>
-
-            <div>
-                <h5>From Managements:</h5>
-                <p style="color:red"> All payments must be made before date of departure.</p>
-            </div>
-            </div>
-           
-          </div>
-          </div>
-            
-            
-            </div>
-
-            </div>
            
 
         </div>
 
 
 
-
     </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
